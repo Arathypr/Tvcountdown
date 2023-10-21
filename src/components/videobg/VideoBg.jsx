@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import videoBg from "../../assets/videobg.mp4";
+import videoBg from "../../assets/bgvideo1.mp4";
 import linkedin from "../../assets/linkedin.png";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
@@ -16,11 +16,7 @@ function VideoBg() {
 
   return (
     <div className="main h-screen relative">
-      <div className="video-container h-screen overflow-hidden bg-black">
-        {/* <video autoPlay loop muted className="video h-full w-full object-cover">
-          <source src={videoBg} type="video/mp4" />
-        </video> */}
-      </div>
+      <div className="video-container h-screen overflow-hidden bg-black"></div>
       <div className="overlay-content absolute inset-0 flex flex-col justify-center items-center text-white z-50">
         <div className="h-full w-full relative overflow-hidden">
           {/* <OrientationMessage /> */}
