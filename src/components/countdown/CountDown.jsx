@@ -51,7 +51,7 @@ function CountDown() {
       <div className="font-Montserrat text-center sm:space-x-16zz">
         <div className="md:hidden vvsm:mt-1  mt-40 sm:mt-36 sm:mr-20">
           <div className="flex flex-col items-center space-x-1 ">
-            <span className="text-6xl font-extrabold sm:text-7xl vvsm:text-5xl ">
+            <span className="text-5xl font-extrabold sm:text-7xl vvsm:text-5xl ">
               {remainingTime.DAYS}
             </span>
             <span className="text-sm sm:text-base sm:pb-10 vsm:pb-14 vvsm:pb-3">
@@ -98,7 +98,7 @@ function CountDown() {
 
       <div className="flex items-center ml-[68px] ">
         <span className="font-extrabold">
-          <Seconds countdownZero={countdownZero}  />
+          <Seconds countdownZero={countdownZero} />
         </span>
         <span className="text-base sec" style={{ marginLeft: "-120px" }}>
           SEC

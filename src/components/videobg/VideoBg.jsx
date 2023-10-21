@@ -8,7 +8,7 @@ import gelie from "../../assets/gelie.svg";
 import tesslois from "../../assets/tesslois.svg";
 import zesdro from "../../assets/zesdro.svg";
 import metamorphose from "../../assets/metamorphose.svg";
-import OrientationMessage from "../orientationmessage/OrientationMessage";
+
 import CountDown from "../countdown/CountDown";
 
 function VideoBg() {
@@ -20,20 +20,20 @@ function VideoBg() {
       <div className="overlay-content absolute inset-0 flex flex-col justify-center items-center text-white z-50">
         <div className="h-full w-full relative overflow-hidden">
           {/* <OrientationMessage /> */}
-          <div className="absolute top-52 sm:left-12 font-semibold vvsm:left-7 text-2xl">
-            <div className=" text-white/20  vvsm:-mt-11 vsm:-mt-10 font-Montserrat sm:mt-6">
+          <div className="absolute top-48 sm:left-12 font-semibold vvsm:left-7 text-2xl">
+            <div className=" text-slate-300  vvsm:-mt-11 vsm:-mt-10 font-Montserrat sm:mt-6">
               A new ERA is loading!!
             </div>
-            <div className="font-Montserrat text-white/10  text-base">
+            <div className="font-Montserrat text-white/40  text-base">
               Prepare for an adventure like no other.
             </div>
           </div>
-          <div className="absolute left-12 top-36 inset-0 flex justify-start items-center text-white">
+          <div className="absolute left-12 top-32 inset-0 flex justify-start items-center text-white">
             <CountDown countdownTimestampMs={1643673600000} />
           </div>
           {/*metamorphose*/}
-          <div className="absolute flex -right-[48%] bottom-[150px]   ">
-            <img src={metamorphose} alt="metamorphose" className="w-[50%]" />
+          <div className="absolute flex -right-[50%] bottom-[145px]   ">
+            <img src={metamorphose} alt="metamorphose" className="w-[48%]" />
           </div>
 
           {/*social media */}
